@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace BookStoreDBFirst.Models;
+namespace dotnetapiapp.Models;
 public class Enquiry
 {
     public int EnquiryID  { get; set; }
