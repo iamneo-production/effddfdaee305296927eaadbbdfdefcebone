@@ -1132,6 +1132,19 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "dotnetmvcapp/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/dotnetmvcapp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/dotnetmvcapp.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -4534,6 +4547,11 @@
       "type": "project",
       "path": "../dotnetapiapp/dotnetapiapp.csproj",
       "msbuildProject": "../dotnetapiapp/dotnetapiapp.csproj"
+    },
+    "dotnetmvcapp/1.0.0": {
+      "type": "project",
+      "path": "../dotnetmvcapp/dotnetmvcapp.csproj",
+      "msbuildProject": "../dotnetmvcapp/dotnetmvcapp.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -4544,7 +4562,8 @@
       "NUnit.Analyzers >= 3.3.0",
       "NUnit3TestAdapter >= 4.2.1",
       "coverlet.collector >= 3.1.2",
-      "dotnetapiapp >= 1.0.0"
+      "dotnetapiapp >= 1.0.0",
+      "dotnetmvcapp >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -4574,6 +4593,9 @@
           "projectReferences": {
             "/home/coder/project/workspace/dotnetproject/dotnetapiapp/dotnetapiapp.csproj": {
               "projectPath": "/home/coder/project/workspace/dotnetproject/dotnetapiapp/dotnetapiapp.csproj"
+            },
+            "/home/coder/project/workspace/dotnetproject/dotnetmvcapp/dotnetmvcapp.csproj": {
+              "projectPath": "/home/coder/project/workspace/dotnetproject/dotnetmvcapp/dotnetmvcapp.csproj"
             }
           }
         }
